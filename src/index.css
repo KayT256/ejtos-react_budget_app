@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Custom styles for the dropdown */
+.custom-dropdown .dropdown-toggle {
+  background-color: #77dd77; /* Green background */
+  border: none; /* No border */
+  color: white; /* White text */
+  text-align: left; /* Align text to the left */
+}
+
+.custom-dropdown .dropdown-menu {
+  background-color: #77dd77; /* Green background for the menu */
+}
+
+.custom-dropdown .dropdown-item {
+  color: white; /* White text for items */
+}
+
+.custom-dropdown .dropdown-item.active,
+.custom-dropdown .dropdown-item:active {
+  background-color: #66bb66; /* Darker green background for active item */
+}
+
